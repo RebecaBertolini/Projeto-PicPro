@@ -1,0 +1,36 @@
+
+.container {
+    background-color: grey;
+    height: 200px;
+}
+.cabecalho {
+    height: 50px;
+    background-color: grey;
+    display: flex;
+    background-color: rgb(51, 175, 175);
+    margin: 0;
+    justify-content: space-around;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    margin: 0 10px;
+    list-style: none;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+.menu li a:hover {
+    text-decoration: underline;
+}
+.logo {
+    width: 45%;
+    padding: 10px;
+}
+.logo p {
+    margin: 0;
+    color: white;
+    font-size: 2em;
+}
